@@ -1,0 +1,85 @@
+*{
+    margin:0;
+    box-sizing:border-box;
+}
+html {
+    font-size: 113%;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* header part */
+
+header a{
+    text-decoration:none;
+    color:white;
+}
+.navFlex{
+    width:80%;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+}
+#logo, nav {
+    padding:1em;
+    width:40%;
+}
+nav{
+    justify-content:space-between;
+    align-items: center;
+}
+.measure{
+    height:0.4rem;
+    background-image: url(../img/path.png);
+    background-position:top;
+}
+header, .measure, footer{
+    background-color: #00748D;
+}
+
+/* body part */
+
+body{
+    background: #f9f9f9;
+    text-align:center;
+}
+main{
+    width:80%;
+    margin:auto;
+}
+section, h2{
+    border:2px solid red;
+    padding:2em;
+}
+
+/* bloc intro */
+
+#intro{
+    height:30rem;
+    background-image: url(../img/bg-header.jpg);
+    background-size:cover;
+    background-position:center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#intro h1{
+    background-color:#CB8606;
+    color:white;
+    padding:0.3em;
+}
+#intro p{
+    background: white;
+    padding:0.3em;
+}
+
+/* bloc prestations */
+
+#intro{
+    flex-wrap:wrap;
+}
+
+/* tools */
+
+.flex{
+    display:flex;
+}

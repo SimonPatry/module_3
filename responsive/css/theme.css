@@ -1,0 +1,34 @@
+/* Le code CSS de la démo */
+html {font-size: 62.5%}/* rééquilibrage du pixel en rem  1rem=10px */
+body {
+        font-size: 14px;
+        font-size: 1.4rem;
+    
+}
+
+img{
+    
+    max-width:100%;/* permet d'utiliser les images sans prendre en compte sa vraie taille */
+    height:auto;
+    
+}
+/*   médiaquerries   */
+/*   quand mon site est affiché sur une tablette et que je pars  d'un mobile first (min-width: 768px) */
+/*   quand mon site est affiché sur une tablette et que je pars  d'un PC first (max-width: 1024px) */
+@media screen and (max-width: 1024px) {
+    
+    
+    
+    
+    
+    
+}
+
+/*   quand mon site est affiché sur une tablette et que je pars  d'un mobile first (min-width: 768px) */
+/*   quand mon site est affiché sur une smartphone et que je pars  d'un PC first (max-width: 768px) */
+@media screen and (max-width: 768px) {
+    
+    
+    
+    
+}

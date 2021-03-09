@@ -1,0 +1,74 @@
+/* Le code CSS de la démo */
+*{
+    margin:0;
+    box-sizing:border-box;
+}
+html {
+    font-size: 62.5%;
+    font-family: Arial;
+}/* rééquilibrage du pixel en rem  1rem=10px */
+header{
+    background: #444444;
+    color: tomato;
+    text-align:center;
+    padding:2rem;
+}
+body {
+    font-size: 14px;
+    font-size: 1.4rem;
+    background: #EEEEEE;
+    
+}
+main{
+    max-width:100%;
+   
+}
+h3{
+    background: #C0C0C0;
+    text-align:left;
+    color:black;
+}
+.flex{
+    display:flex;
+    flex-wrap:wrap;
+}
+.flex article{
+    padding:1rem;
+    width:100%;
+    padding:0.5rem;
+}
+
+    
+
+
+img{
+    max-width:100%;/* permet d'utiliser les images sans prendre en compte sa vraie taille */
+    height:auto;
+}
+footer{
+    text-align:center;
+    background: #444444;
+    color: tomato;
+    padding:1rem;
+}
+/*   médiaquerries   */
+/*   quand mon site est affiché sur une tablette et que je pars  d'un mobile first (min-width: 768px) */
+/*   quand mon site est affiché sur une tablette et que je pars  d'un PC first (max-width: 1024px) */
+@media screen and (min-width: 768px) {
+ main{
+       width:90%;
+       margin:auto;
+    }
+.flex article{
+        width:50%;
+    }
+}
+
+/*   quand mon site est affiché sur une tablette et que je pars  d'un mobile first (min-width: 768px) */
+/*   quand mon site est affiché sur une smartphone et que je pars  d'un PC first (max-width: 768px) */
+@media screen and (min-width: 1024px) {
+
+.flex article{
+        width:25%;
+    }
+}
